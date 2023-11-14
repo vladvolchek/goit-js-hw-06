@@ -8,12 +8,12 @@ const ingredients = [
 ];
 
 const ingredientsList = document.getElementById("#ingredients");
-console.log(list);
+
 
 const makeProducts = (products) => {
   return products.map((product) => {
     const liItem = document.createElement("li");
-    liItem.textContent = `${product}`;
+    liItem.textContent = product;
     liItem.classList.add("item");
   
     return liItem;
