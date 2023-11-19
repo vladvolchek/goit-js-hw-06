@@ -22,5 +22,5 @@ const makeProducts = (products) => {
 
 const elements = makeProducts(ingredients);
 
-list.append(...elements);
+ingredientsList.append(...elements);
 console.log(elements);
